@@ -1,0 +1,208 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "aside header"
+    "aside main";
+  grid-template-columns: 275px 1fr;
+  grid-template-rows: 454px 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  grid-area: header;
+  background-image: url(../assets/Rectangle\ 201.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+li {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.button {
+  margin-top: 40px;
+  display: flex;
+  height: 54px;
+  gap: 10px;
+  
+}
+.button-like {
+  background-color: #6100c2;
+  background: none;
+  width: 54px;
+  height: 54px;
+}
+.button-watch {
+  width: 139px;
+  height: 54px;
+  background-color: #6100c2;
+  border-radius: 10px;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  
+}
+.h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #fff;
+
+}
+.header__description {
+  color: white;
+}
+.aside {
+  grid-area: aside;
+  background-color: #21201e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.logo {
+  color: white;
+  margin: 10px 0 0 40px;
+  vertical-align: middle;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.list-aside {
+  list-style: none;
+  gap: 10px;
+}
+p {
+  display: inline;
+  gap: 50px;
+  line-height: 50px;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.icon {
+  vertical-align: middle;
+}
+.main {
+  grid-area: main;
+  background: linear-gradient(to right, #2c0255, #37312a 30%);
+}
+.trending-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 0 30px;
+}
+.cards__content1 {
+  background-image: url(../assets/tokyo-train.png);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  height: 300px;
+  box-shadow: none;
+  display: flex;
+  align-items: flex-end;
+}
+.cards__content2 {
+  background-image: url(../assets/moonfall.png);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+}
+.cards__content3 {
+  background-image: url(../assets/life-in-paris.png);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+}
+.cards__content4 {
+  background-image: url(../assets/house-of-gucci.png);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cards__footer {
+  height: 80px;
+  width: 250px;
+  color: #000000;
+  background-color: rgba(232, 231, 229, 0.9);
+  font
+}
+
+.continue-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  padding: 0 30px;
+  gap: 10px;
+}
+.cards__content21 {
+  background-image: url(../assets/wedding.jpg);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 348px;
+  min-height: 185px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+.cards__content22 {
+  background-image: url(../assets/shoes.jpg);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 348px;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+}
+.cards__content23 {
+  background-image: url(../assets/space.jpg);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 348px;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+}
+.cards__footer-continue {
+  height: 50px;
+  width: 348px;
+  color: #000000;
+  background-color: rgba(232, 231, 229, 0.9);
+}
+h3 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 29px;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin-left: 30px;
+}
