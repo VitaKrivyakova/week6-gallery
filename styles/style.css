@@ -157,6 +157,18 @@ p {
   background-color: rgba(232, 231, 229, 0.9);
   font
 }
+.cards__capture {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  flex: 1;
+  vertical-align: middle;
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  font-family: "Poppins", sans-serif;
+}
 
 .continue-container {
   display: grid;
