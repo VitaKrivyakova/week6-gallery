@@ -41,7 +41,6 @@ li {
   display: flex;
   height: 54px;
   gap: 10px;
-  
 }
 .button-like {
   background-color: #6100c2;
@@ -58,14 +57,12 @@ li {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 16px;
-  
 }
 .h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 48px;
   color: #fff;
-
 }
 .header__description {
   color: white;
@@ -76,7 +73,6 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 .logo {
   color: white;
@@ -155,7 +151,6 @@ p {
   width: 250px;
   color: #000000;
   background-color: rgba(232, 231, 229, 0.9);
-  font
 }
 
 .cards__capture {
@@ -213,4 +208,4 @@ h3 {
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
   margin-left: 30px;
-}}
+}
