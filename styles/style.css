@@ -2,9 +2,10 @@
   display: grid;
   grid-template-areas:
     "aside header"
-    "aside main";
+    "aside main"
+    "footer footer";
   grid-template-columns: 275px 1fr;
-  grid-template-rows: 454px 1fr;
+  grid-template-rows: 454px 1fr 10%;
   width: 100vw;
   height: 100vh;
 }
@@ -166,6 +167,7 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   padding: 0 30px;
   gap: 10px;
+  margin-bottom: 20px;
 }
 .cards__content21 {
   background-image: url(../assets/wedding.jpg);
@@ -208,4 +210,12 @@ h3 {
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
   margin-left: 30px;
+}
+.footer {
+  grid-area: footer;
+  background: linear-gradient(to left, #2c0255, #21201e 30%);
+}
+.contact {
+  padding-left: 40px;
+  color: #fff;
 }
