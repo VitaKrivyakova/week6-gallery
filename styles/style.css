@@ -157,12 +157,8 @@ p {
   background-color: rgba(232, 231, 229, 0.9);
   font
 }
+
 .cards__capture {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  flex: 1;
-  vertical-align: middle;
   padding-left: 15px;
   font-weight: 400;
   font-size: 16px;
@@ -217,4 +213,4 @@ h3 {
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
   margin-left: 30px;
-}
+}}
